@@ -18,7 +18,6 @@ function Navbar() {
       <nav ref={navRef}>
         <Link to="/Home">Home</Link>
         <Link to="/aboutSection">About</Link>
-        <Link to="/sourceCode">Source Code</Link>
         <button className="nav-btn nav-close-btn" onClick={showNavbar}>
           <FaTimes />
         </button>

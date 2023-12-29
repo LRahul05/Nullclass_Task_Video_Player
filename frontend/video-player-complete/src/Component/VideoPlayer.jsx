@@ -41,7 +41,6 @@ const VideoPlayer = ({ videoId }) => {
         }
       } else {
         // Reset click count and time for
-
         clickCount = 1;
       }
 
@@ -76,12 +75,18 @@ const VideoPlayer = ({ videoId }) => {
       video.removeEventListener("mousedown", handleMouseDown);
       video.removeEventListener("mouseup", handleMouseUp);
     };
-  }, [isPlaying]);
+  }, [isPlaying]); // Include isPlaying in the dependency array
 
   return (
-    <video ref={videoRef} width="700" height="315" controls autoPlay>
+    <video
+      ref={videoRef}
+      width="700"
+      height="315"
+      controls
+      autoPlay={isPlaying} // Ensure autoPlay is controlled by isPlaying
+    >
       <source
-        src={`http://localhost:3000/videos/${videoId}`}
+        src={`http://localhost:8000/videos/${videoId}`}
         type="video/mp4"
       ></source>
       Your browser does not support the video tag.

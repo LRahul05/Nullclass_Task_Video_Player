@@ -11,13 +11,19 @@ const AboutSection = () => {
       <div className="text-content">
         <h2>About the Video Player</h2>
         <p>
-        Our advanced video player elevates your viewing experience to new heights, ensuring a seamless and interactive journey through your favorite content. With innovative gesture-based controls at your fingertips, you wield the power to navigate videos effortlessly, transforming your streaming sessions into immersive adventures.
+        <strong>Immersive Gesture Controls:</strong> Elevate your video streaming experience with our React web video player's innovative gesture-based controls. Effortlessly navigate through your favorite content with a quick double-tap to skip forward or dynamically adjust playback speed on the fly.
         </p>
         <p>
-        Delight in the ability to skip forward with a quick double-tap or fine-tune the playback speed on the fly – our video player empowers you with unprecedented control. Designed with a user-friendly interface, it seamlessly blends intuitive navigation with robust functionality, creating an environment where ease of use meets cutting-edge features.
+        <strong>Unprecedented User Control: </strong>Take charge of your viewing experience like never before. Our video player provides unparalleled control, offering intuitive shortcuts and dynamic adjustments at your fingertips. Seamlessly blend ease of use with cutting-edge features through our user-friendly interface.
         </p>
         <p>
-        Explore a world of possibilities as you engage with our video player, where every interaction is crafted to enhance your enjoyment. From intuitive shortcuts to dynamic adjustments, our player is your gateway to a personalized and enjoyable viewing experience. Immerse yourself in content like never before, and let our video player redefine the way you engage with your favorite videos.
+        <strong>Personalized Enjoyment: </strong>Immerse yourself in a world of possibilities where every interaction is designed to enhance your enjoyment. From intuitive shortcuts to dynamic adjustments, our video player is your gateway to a personalized and enjoyable viewing experience. Redefine the way you engage with your favorite videos.
+
+
+
+
+
+
         </p>
       </div>
     </div>

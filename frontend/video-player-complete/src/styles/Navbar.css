@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap");
 
 * {
+  
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -8,9 +9,9 @@
 }
 
 :root {
-  --mainColor: #29335c;
-  --mainColorLight: #5767aa;
-  --secondaryColor: #db2b39;
+  --mainColor: #040404;
+  --mainColorLight: #050505;
+  --secondaryColor: #080808;
   --textColor: #eee;
 }
 
@@ -20,7 +21,7 @@ header {
   justify-content: space-between;
   height: 80px;
   padding: 0 2rem;
-  background: linear-gradient(to right, #3494e6, #ec6ead); /* Gradient background for the header */
+  background: linear-gradient(to right, #090909, #060606); /* Gradient background for the header */
   color: var(--textColor);
 }
 

@@ -5,7 +5,6 @@ import Navbar from './Component/Navbar';
 import { Element } from 'react-scroll';
 import Home from './Component/Home';
 import AboutSection from './Component/AboutSection';
-import SourceCode from './Component/SourceCode';
 import Footer from './Component/Footer';
 
 function App() {
@@ -17,9 +16,6 @@ function App() {
       </Element>
       <Element name="about">
         <AboutSection />
-      </Element>
-      <Element name="sourceCode">
-        <SourceCode />
       </Element>
       <Footer />
     </div>

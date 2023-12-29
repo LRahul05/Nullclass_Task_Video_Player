@@ -13,10 +13,10 @@ class Footer extends React.Component {
               <a href="/Home">Home</a>
               |
               <a href="/AboutSection">About</a>
-              |
-              <a href="/SourceCode">SourceCode</a>
+              
+              
             </p>
-            <p className="footer-company-name">Copyright © 2023 <strong>Danush </strong> ©  All rights reserved</p>
+            <p className="footer-company-name">Copyright © 2023 <strong>Rahul L </strong> ©  All rights reserved</p>
           </div>
           <div className="footer-center">
             <div>
@@ -25,18 +25,18 @@ class Footer extends React.Component {
             </div>
             <div>
               <FaPhone color='white'/>
-              <p>+91 74**9**258</p>
+              <p>+91 996**3*2*8</p>
             </div>
             <div>
               <FaEnvelope color='white'/>
-              <p><a href="mailto:sagar00001.co@gmail.com">xyz@gmail.com</a></p>
+              <p><a href="mailto:rahul00001.co@gmail.com">xyz@gmail.com</a></p>
             </div>
           </div>
           <div className="footer-right">
             <p className="footer-company-about">
               <span>About the company</span>
-              <strong>This Video Player </strong> allows you to use the custom gestures and allows you to customize the feauters based on 
-                    the user's wish.
+              This Video Player is created by <strong>Rahul L </strong>for Nullclass Intenship Task.
+                    
             </p>
             <div className="footer-icons">
               <a href="#"><FaFacebook /></a>

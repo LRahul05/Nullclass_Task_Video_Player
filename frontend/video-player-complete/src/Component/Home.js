@@ -16,8 +16,8 @@ const Home = () => {
   return (
     <div>
       <div className='title'>
-        <h1>Welcome to the Video Player Experience</h1>
-        <p>Explore our interactive video player with gesture-based controls!</p>
+        <h1>Video Player React App</h1>
+        <p>Created by Rahul L</p>
       </div>
 
       <AboutSection />
@@ -25,19 +25,9 @@ const Home = () => {
       <div className="intro-section">
         <div className="video-intro">
 
-          <h2>Discover the Features</h2>
+          <h2>Let's Play It!</h2>
           <p>
-  Immerse yourself in a truly unique video playback experience, where innovation meets convenience through our state-of-the-art gesture controls. As you navigate the captivating world of video content, our intuitive gestures redefine the way you interact with your favorite media.
-
-  Picture this: a seamless journey through your video library, all at the tips of your fingers. With the simple elegance of a double-tap, effortlessly skip forward or backward, enhancing your control over the playback timeline. Feel the power in the subtlety of a press and hold, allowing you to finely adjust the playback speed to match your desired tempo.
-
-  Our mission is to empower your viewing experience with technology that adapts to you. Imagine a world where your gestures guide the narrative, creating a harmonious synergy between the viewer and the content. It's not just video playback; it's an immersive exploration of storytelling through the lens of your own interactions.
-
-  The intricacy of our gesture controls extends beyond mere convenience; it's a symphony of user-centric design and cutting-edge technology. As you delve into the intricacies of our features, discover the art of personalized engagement with your videos. Every gesture becomes a brushstroke, painting a canvas of dynamic and responsive multimedia interaction.
-
-  Join us on this journey where innovation meets entertainment, and every gesture adds a new layer to your video-watching experience. Whether you're a casual viewer or a dedicated cinephile, our gesture controls redefine the boundaries of what's possible, bringing a new dimension to the way you enjoy video content.
-
-  Welcome to the future of video playback – where the power is in your hands, quite literally.
+          Dive into an unparalleled video playback adventure, where convenience meets innovation through our cutting-edge gesture controls. As you explore the captivating realm of video content, our instinctive gestures revolutionize your interaction with beloved media. Envision a seamless traverse through your video collection, all effortlessly controlled by the touch of your fingers. With the graceful simplicity of a double-tap, effortlessly leap forward or backward, amplifying your command over the playback timeline. Experience the finesse in a press and hold, allowing precise adjustment of playback speed to harmonize with your preferred tempo. Our goal is to enrich your viewing experience with adaptive technology. Envision a realm where your gestures shape the narrative, forging a harmonious connection between viewer and content. It transcends mere video playback; it's an immersive exploration of storytelling driven by your interactions. The sophistication of our gesture controls goes beyond mere convenience; it's a blend of user-centric design and cutting-edge technology. As you unravel the intricacies of our features, uncover the art of personalized engagement with your videos. Each gesture transforms into a brushstroke, creating a canvas of dynamic, responsive multimedia interaction. Join us on this expedition where innovation converges with entertainment, and each gesture adds a new dimension to your video-watching escapade. Whether you're a casual observer or a devoted cinephile, our gesture controls redefine the possibilities, bringing a fresh perspective to how you savor video content. Embrace the future of video playback – where the control is in your hands, quite literally.
 </p>
 
         </div>
