@@ -86,7 +86,7 @@ const VideoPlayer = ({ videoId }) => {
       autoPlay={isPlaying} // Ensure autoPlay is controlled by isPlaying
     >
       <source
-        src={`http://localhost:8000/videos/${videoId}`}
+        src={`https://videoplayer-server-gh9m.onrender.com/videos/${videoId}`}
         type="video/mp4"
       ></source>
       Your browser does not support the video tag.
